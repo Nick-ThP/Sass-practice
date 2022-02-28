@@ -1,0 +1,33 @@
+@import "../Variables/Variables.scss";
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: $greenColor;
+    }
+
+    button {
+        @include buttonStyle(yellow, 10px);
+    }
+}
+
+h1 {
+    color: $redColor;
+    text-align: center;
+}
+
+section {
+    background-color: lightcoral;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        @include buttonStyle(red, 100px);
+    }
+}
+

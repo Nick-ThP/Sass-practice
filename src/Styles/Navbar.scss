@@ -1,0 +1,22 @@
+@import "../Variables/Variables.scss";
+    
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: $pinkColor;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a {
+    color: $whiteColor;
+    font-size: 20px;
+    margin: 15px;
+    text-decoration: none;
+    font-family: $bodyFont;
+}
+
+button {
+    @include buttonStyle(blue, 50px);
+}

@@ -1,0 +1,15 @@
+$pinkColor: rgb(234,90,234);
+$whiteColor: white;
+$greenColor: lightgreen;
+$redColor: tomato;
+
+$titleFont: Arial, Helvetica, sans-serif;
+$bodyFont: 'Times New Roman';
+
+@mixin buttonStyle($color, $fontSize) {
+    width: 200px;
+    height: 50px;
+    border: 1px solid yellow;
+    color: $color;
+    font-size: $fontSize;
+}
