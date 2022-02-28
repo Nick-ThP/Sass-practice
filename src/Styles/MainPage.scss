@@ -10,7 +10,7 @@
     }
 
     button {
-        @include buttonStyle(yellow, 10px);
+        @include buttonStyle(yellow, 20px);
     }
 }
 
@@ -27,7 +27,7 @@ section {
     align-items: center;
 
     button {
-        @include buttonStyle(red, 100px);
+        @include buttonStyle(red, 30px);
     }
 }
 
